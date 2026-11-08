@@ -204,6 +204,9 @@ Keep narration, dialogue, voice and lip-sync instructions in their dedicated con
 
 ## 7. Integrated narration per clip
 
+- Check whether each submitted clip has been created every **1–2 minutes** until it reaches a known ready/failed state. This status check is bookkeeping, not per-generation QA.
+
+
 For each reviewed image:
 Verify its ledger confirms the story's same master character reference was used. If a visible reference selector remains present, keep that master selected.
 
