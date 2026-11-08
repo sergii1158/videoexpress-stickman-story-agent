@@ -18,7 +18,9 @@ At the very start of a new video project, before generating any images or submit
 
 Use VideoExpress's connected CloneVoice integration. Do not open CloneVoice.ai, create standalone audio there, download narration, or import standalone narration files. Create each scene's narration inside VideoExpress before generating that scene's video.
 
-Keep requested workflow changes in this reusable prompt and matching documentation/checklist. Edit, commit, push, publish, or deploy repository changes only when the user asks for that repository action; verify any requested publication before claiming it.
+Keep requested workflow changes in this reusable prompt and matching documentation/checklist.
+
+When the user says **“Запомни”**, treat it as an explicit request to persist the stated rule or preference in this repository: update the relevant reusable prompt and matching documentation/checklist, commit the change, publish it to GitHub, and verify the published file before claiming completion. Edit, commit, push, publish, or deploy repository changes only when the user asks for that repository action; verify any requested publication before claiming it.
 
 ## 0. Authorization, account, browser, and recovery
 
