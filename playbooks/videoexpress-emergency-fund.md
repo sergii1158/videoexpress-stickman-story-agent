@@ -7,14 +7,15 @@ Use this playbook for the user's emergency-fund explainer videos in VideoExpress
 - Image Type: 2D.
 - Creative mode: ON.
 - Automatically enhance image prompt: OFF.
-- Advanced Mode: OFF.
+- Advanced Mode: OFF unless the duration control is only available there.
 - Use Consistent Character: ON.
 - Reference Photo must be selected through the dedicated lower Reference Photo control, not only Use from Library.
 - Use only `APPROVED MASTER STICKMAN - NO BANK`: white shirt, turquoise tie, glasses; no green sweater, bank, container, or alternate character.
 - Narrator: CloneVoice, Leo Crawford.
 - Narration must be continuous and integrated into each clip.
+- Set each clip's duration from the actual generated narration length. Do not use a fixed six-second default. If the UI exposes Manual Video Length, choose the narration-matched duration, up to the product's allowed maximum, instead of truncating the speech.
 - Keep the project at Landscape 16:9 unless the user explicitly requests 9:16.
-- Never publish to the public gallery, delete library originals, or export unless explicitly requested.
+- Never publish to the public gallery or delete library originals.
 
 ## Scene workflow
 
@@ -22,21 +23,23 @@ Use this playbook for the user's emergency-fund explainer videos in VideoExpress
 2. Start the first frame in action, never in a neutral standing pose.
 3. Confirm all settings and select the approved master through Reference Photo.
 4. Generate the image and inspect it before video generation.
-5. Reject any candidate with the wrong character, 3D/photorealistic styling, a bank/container, green sweater, extra or missing limbs, or a pose unrelated to the narration.
-6. Generate one integrated narrated video. Poll the job every 1–2 minutes and inspect the existing job before retrying.
-7. If generation fails or is clearly unusable, retry the same scene only after confirming the previous job is failed; maximum five attempts for this project, never duplicate a pending job.
-8. Inspect the first frame and the clip for narration relevance, dynamic motion, 2D style, correct character, exactly two arms and two legs, and continuous audio.
-9. Add the verified clip exactly once at the end of the current timeline, then save the project.
-10. Continue sequentially from the first incomplete narration fragment.
+5. Determine the clip duration from the narration length and set it before submitting the video.
+6. Reject any candidate with the wrong character, 3D/photorealistic styling, a bank/container, green sweater, extra or missing limbs, or a pose unrelated to the narration.
+7. Generate one integrated narrated video. Poll the job every 1–2 minutes and inspect the existing job before retrying.
+8. If generation fails or is clearly unusable, retry the same scene only after confirming the previous job is failed; maximum five attempts for this project, never duplicate a pending job.
+9. Inspect the first frame and the clip for narration relevance, dynamic motion, 2D style, correct character, exactly two arms and two legs, and continuous audio without truncation.
+10. Add the verified clip exactly once at the end of the current timeline, then save the project.
+11. Continue sequentially from the first incomplete narration fragment.
 
 ## Current correction
 
-The missing emergency-fund introduction was split into four consecutive clips:
+The missing emergency-fund introduction was split into five consecutive clips:
 
 1. Bills versus the deeper question of life at each protection level.
 2. Emergency fund as time, flexibility, and calm decision-making.
 3. Life from zero dollars to a fully funded reserve.
 4. No universal perfect number; the target depends on income, expenses, family, health, job stability, and access to help.
+5. Every level changes something.
 
 ## Stop conditions
 
