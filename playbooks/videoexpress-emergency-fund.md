@@ -60,3 +60,13 @@ Use this playbook for the user's emergency-fund explainer project. The user has 
 ## Project status
 
 The Emergency Fund video is complete according to the user. Preserve its current project, timeline, and Blue Check reference. For a new film, follow the new film's script and user-approved character reference; make further changes only when asked.
+
+
+## Script segmentation and speaking-time table
+
+- Before drafting visuals or generating clips, divide the complete narration/script into consecutive, standalone spoken units. Preserve the script's meaning and order; do not omit content.
+- Each unit's spoken duration must be no more than 10 seconds. Estimate pacing only for the initial draft, then measure the actual narration/audio boundaries whenever audio exists.
+- If a sentence or thought takes longer than 10 seconds to speak, split it into multiple natural, grammatically clear narration sentences/units, each no longer than 10 seconds. Keep the split aligned with pauses and meaning; do not force an awkward cutoff.
+- Present the complete segmented script in a copyable two-column Markdown table, with exactly these headers: | Text | Speaking time |. Put the full narration text for each unit in the left column and its duration in seconds (or start–end plus duration when available) in the right column. Include every unit, in order.
+- When audio is available, derive speaking times from the actual audio/timeline boundaries, not word-count estimates. Ensure each segment fits within 10 seconds and keep the table times consistent with the audio. If exact boundaries cannot be read, do not invent timings; mark them as needing measurement.
+- Use this table as the scene checklist and source for clip boundaries. Keep each visual clip aligned to its corresponding narration unit; never combine units into a clip over 10 seconds or alter the audio to fit.
