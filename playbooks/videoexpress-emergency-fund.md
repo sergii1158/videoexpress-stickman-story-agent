@@ -1,6 +1,6 @@
 # VideoExpress Emergency Fund Playbook
 
-Use this playbook for the user's emergency-fund explainer project. The user has completed the current video; do not resume editing it unless asked. For future requested work, follow the rules below together with the user's latest direct instructions.
+Use this playbook for the user's emergency-fund explainer project. The user has completed the current video; do not resume editing it unless asked. Blue Check is specific to this Emergency Fund film. A future film may have a different protagonist and must use its own user-approved character reference.
 
 ## Source of truth and complete coverage
 
@@ -28,17 +28,18 @@ Use this playbook for the user's emergency-fund explainer project. The user has 
 
 ## Character and generation settings
 
-- Use only the approved library reference named **APPROVED MASTER STICKMAN - NO BANK**, identified by the user's blue check. Select it using the lower **Reference Photo** control for character inheritance; **Use from Library** alone does not satisfy this requirement.
-- Set **Image Type: 2D**, **Creative mode: ON**, and **Use Consistent Character: ON**. Keep automatic image-prompt enhancement OFF. Keep the current project aspect ratio unless the user requests a change.
-- Preserve the approved character: white shirt, turquoise tie, glasses, slim stickman body, narrow torso, thin arms and legs. Do not substitute a different reference or add a green sweater, bank, jar, or container.
-- Specify a dynamic, non-upright starting pose and meaningful movement in every scene. Vary poses between scenes; do not begin with a straight-standing character. Keep limbs slim, and require exactly two arms and two legs.
+- For this completed Emergency Fund film, use only the approved library reference named **APPROVED MASTER STICKMAN - NO BANK**, identified by the user's blue check. Select it using the lower **Reference Photo** control for character inheritance; **Use from Library** alone does not satisfy this requirement.
+- For every future film, use the character reference that the user approves for that specific film. The protagonist may change between films. Do not carry Blue Check, its costume, or any other prior protagonist into a new film unless the user approves that character for it. Once approved for a film, keep that film's chosen master consistent across its scenes and revisions.
+- Set **Image Type: 2D**, **Creative mode: ON**, and **Use Consistent Character: ON**. Keep automatic image-prompt enhancement OFF. Keep the current project's aspect ratio unless the user requests a change.
+- For the Emergency Fund film, preserve the Blue Check design: white shirt, turquoise tie, glasses, slim stickman body, narrow torso, thin arms and legs. Do not add a green sweater, bank, jar, or container. For a future film, follow that film's approved character design and applicable props instead of imposing these Emergency Fund exclusions.
+- Specify a dynamic, non-upright starting pose and meaningful movement in every scene. Vary poses between scenes; do not begin with a straight-standing character. Keep limbs proportionate and require exactly two arms and two legs when the character design is a stickman.
 - Make the visual action directly illustrate the exact narration line. Avoid unrelated props, invented claims, or extra wording that could confuse the meaning.
 - If the user asks only for prompts, provide detailed prompts and do not generate or change the timeline. If the user asks to make clips, continue through generation, review, and placement rather than stopping after drafting prompts.
 
 ## Generate, inspect, retry, and place safely
 
 - Submit one clip generation at a time. Check the status before any next generation action, then every 1–2 minutes while it is processing. Never duplicate an attempt that may still be active.
-- Review the first frame and the full clip for narration match, dynamic action, 2D style, approved reference, slim limbs, exactly two arms and two legs, and absence of prohibited props or clothing.
+- Review the first frame and the full clip for narration match, dynamic action, 2D style, the approved character for that film, proportionate limbs, exactly two arms and two legs for stickman characters, and absence of prohibited props or clothing.
 - Do not place rejected attempts on the timeline. If a completed clip is failed or clearly unusable, retry the same scene only after confirming the prior attempt is no longer processing. The user authorizes five attempts or more if needed; keep retrying until an acceptable clip is produced or a concrete blocker appears.
 - Add only one approved clip, named with the first words of its narration line. Place it once on the requested track at the matching audio position. Then verify its label, track, order, and exact timing.
 - Save after substantial changes when the app supports saving. Stop and report immediately if authentication is required; do not alter or publish the project.
@@ -50,4 +51,4 @@ Use this playbook for the user's emergency-fund explainer project. The user has 
 
 ## Project status
 
-The emergency-fund video is complete according to the user. Preserve the current project and timeline; make further changes only when the user asks.
+The Emergency Fund video is complete according to the user. Preserve its current project, timeline, and Blue Check reference. For a new film, follow the new film's script and user-approved character reference; make further changes only when asked.
