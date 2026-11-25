@@ -70,3 +70,13 @@ The Emergency Fund video is complete according to the user. Preserve its current
 - Present the complete segmented script in a copyable two-column Markdown table, with exactly these headers: | Text | Speaking time |. Put the full narration text for each unit in the left column and its duration in seconds (or start–end plus duration when available) in the right column. Include every unit, in order.
 - When audio is available, derive speaking times from the actual audio/timeline boundaries, not word-count estimates. Ensure each segment fits within 10 seconds and keep the table times consistent with the audio. If exact boundaries cannot be read, do not invent timings; mark them as needing measurement.
 - Use this table as the scene checklist and source for clip boundaries. Keep each visual clip aligned to its corresponding narration unit; never combine units into a clip over 10 seconds or alter the audio to fit.
+
+
+## Character pose sheet before production
+
+- At the start of each new film, after the user approves that film's master character and before generating scene images or clips, create a character pose sheet using that approved reference.
+- Show the same protagonist in a useful range of distinct poses and camera views for the planned scenes: for example, crouching, leaning, walking, reaching, pointing, sitting, turning, reacting, and interacting with relevant props. Choose poses that fit the script; do not force irrelevant actions.
+- Keep identity, face, body proportions, clothing, colors, and other approved design traits consistent across every pose. Vary pose, gesture, orientation, and framing only. Do not treat a pose sheet as permission to alter or replace the approved character.
+- Review the pose sheet for visual consistency and correct anatomy before using it as a guide. Use it to assign a varied, story-appropriate starting pose to every scene. Avoid repeated straight-standing poses; use an upright stance only when the action clearly calls for it.
+- If the image tool cannot create a reliable multi-pose sheet, generate and review pose references one at a time from the same approved master, following the retry policy and avoiding duplicate jobs.
+- For future films, first obtain approval of that film's character reference; never assume the Emergency Fund character or any old pose sheet applies.
