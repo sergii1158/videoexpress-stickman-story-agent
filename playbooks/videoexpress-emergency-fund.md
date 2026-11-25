@@ -38,14 +38,22 @@ Use this playbook for the user's emergency-fund explainer project. The user has 
 
 ## Generate, inspect, retry, and place safely
 
-- Submit one clip generation at a time. Check the status before any next generation action, then every 1–2 minutes while it is processing. Never duplicate an attempt that may still be active.
-- Review the first frame and the full clip for narration match, dynamic action, 2D style, the approved character for that film, proportionate limbs, exactly two arms and two legs for stickman characters, and absence of prohibited props or clothing.
-- Do not place rejected attempts on the timeline. If a completed clip is failed or clearly unusable, retry the same scene only after confirming the prior attempt is no longer processing. The user authorizes five attempts or more if needed; keep retrying until an acceptable clip is produced or a concrete blocker appears.
-- Add only one approved clip, named with the first words of its narration line. Place it once on the requested track at the matching audio position. Then verify its label, track, order, and exact timing.
-- Save after substantial changes when the app supports saving. Stop and report immediately if authentication is required; do not alter or publish the project.
+- Submit one image or video generation at a time. Check its status before another generation action, then every 1–2 minutes while it is processing. Never submit a duplicate while a job may still be active.
+- Review each generated image before video generation. Review each finished clip's first frame and full motion for narration match, dynamic action, 2D style, approved character for that film, proportionate limbs, exactly two arms and two legs for stickman characters, and absence of prohibited props or clothing.
+- Add no rejected image or video attempt to the timeline. Add a verified clip exactly once, named with the first words of its narration line, at the matching audio position and requested track. Verify the label, track, order, and exact timing.
 
-## Completion check
+## Retry policy for generation and transient app glitches
 
+- This retry policy applies to still-image generation, video generation, and recoverable transient VideoExpress interface failures during an authorized operation.
+- When an action fails, appears stuck, or produces no expected result, inspect the current app state and job status first. Confirm whether it actually failed, is still processing, or partially succeeded before retrying.
+- For a confirmed failed generation or an unusable image/video, retry the same scene and generation step up to at least five attempts. Keep the narration meaning, approved reference, and required settings; adjust a prompt only to correct an identified visual defect. The user authorizes additional attempts beyond five when needed and safe.
+- For a recoverable interface glitch, repeat the same interrupted operation after checking that it did not already succeed. Do not blindly click a control again if that could create duplicate clips, duplicate jobs, or other repeated side effects.
+- After every retry, check the resulting status before doing anything else. Keep retrying while the failure is transient and the action remains safe; report a concrete blocker when the app shows a lasting restriction or no safe retry remains.
+- Stop immediately on **authentication_required** and request reauthorization. Do not retry around authentication, payment restrictions, unavailable required references, or other explicit access/policy blocks.
+
+## Save and completion check
+
+- Save after substantial changes when the app supports saving. Never publish the video to a public gallery or delete library originals.
 - Before reporting completion, compare the checklist with the full script and timeline. Confirm every intended narration line has exactly one approved, correctly named clip on the intended track and aligned to the correct audio segment.
 - If the user says the entire video is complete, stop editing and acknowledge that. Do not restart production or ask for the script again.
 
